@@ -83,7 +83,7 @@ def GetDemDephs():
 GetBinDephs()
 print(f"Connected To Demex --- {demPK.address}")
 GetDemDephs()
-#print(f"Connected To Binance --- {binPK.get_account()['updateTime']}")
+print(f"Connected To Binance --- {binPK.get_account()['updateTime']}")
 print ("Matching...")
 
 while True :
@@ -124,7 +124,7 @@ while True :
         result = clientDem.create_order(message)
         
         #Buy on binance:
-        #order = client.order_market_buy(symbol=binTicker,quantity=demQtySizeBids)
+        order = client.order_market_buy(symbol=binTicker,quantity=demQtySizeBids)
         print (tradeCounter, "- Buy", demQtySizeBids, "---", binBuyPrice, "on Binance, ratio:", round(float(ratio),2))
         tradeCounter = int(tradeCounter)+1
         #change ratio
