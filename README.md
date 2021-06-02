@@ -1,7 +1,7 @@
 # DemextoBinanceArbBot
 Simple Python Script Example, using tradehub-python and to arbitrage trading. (In case you can't access to Demex UI)<br>
 
-Python 3.8+ required. (**USE IT AT YOUR OWN RISKS)<br>
+Python 3.8+ required. (***USE IT AT YOUR OWN RISKS)<br>
 
 Instructions<br>
 1)Install Tradehub-python library "pip install tradehub" (https://github.com/Mai-Te-Pora/tradehub-python)<br>
